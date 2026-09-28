@@ -1,0 +1,209 @@
+{
+    "providers": [
+        {
+            "type": "unihex",
+            "hex_file": "minecraft:font/dotfantail16_jp.zip",
+            "size_overrides": [
+                {
+                    "__ranges": [
+                        "CJK Symbols and Punctuation"
+                    ],
+                    "from": "\u3001",
+                    "to": "\u303F",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Enclosed CJK Letters and Months",
+                        "CJK Compatibility",
+                        "CJK Unified Ideographs Extension A",
+                        "Yijing Hexagram Symbols",
+                        "CJK Unified Ideographs"
+                    ],
+                    "from": "\u3200",
+                    "to": "\u9FFF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "CJK Compatibility Ideographs"
+                    ],
+                    "from": "\uF900",
+                    "to": "\uFAFF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Halfwidth and Fullwidth Forms"
+                    ],
+                    "from": "\uFF01",
+                    "to": "\uFF5E",
+                    "left": 0,
+                    "right": 15
+                }
+            ],
+            "filter": {
+                "jp": true
+            }
+        },
+        {
+            "type": "unihex",
+            "hex_file": "minecraft:font/dotfantail16.zip",
+            "size_overrides": [
+                {
+                    "__ranges": [
+                        "Basic Latin"
+                    ],
+                    "from": "\u0030",
+                    "to": "\u0039",
+                    "left": 1,
+                    "right": 6
+                },
+                {
+                    "__ranges": [
+                        "HORIZONTAL BAR"
+                    ],
+                    "from": "\u2015",
+                    "to": "\u2016",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "HORIZONTAL ELLIPSIS"
+                    ],
+                    "from": "\u2025",
+                    "to": "\u2026",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "REFERENCE MARK"
+                    ],
+                    "from": "\u203B",
+                    "to": "\u203C",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "MIDLINE HORIZONTAL ELLIPSIS"
+                    ],
+                    "from": "\u22EE",
+                    "to": "\u22EF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "CJK Symbols and Punctuation",
+                        "Hiragana",
+                        "Katakana"
+                    ],
+                    "from": "\u3001",
+                    "to": "\u30FF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Enclosed CJK Letters and Months",
+                        "CJK Compatibility",
+                        "CJK Unified Ideographs Extension A",
+                        "Yijing Hexagram Symbols",
+                        "CJK Unified Ideographs"
+                    ],
+                    "from": "\u3200",
+                    "to": "\u9FFF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Jamo"
+                    ],
+                    "from": "\u1100",
+                    "to": "\u11FF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Compatibility Jamo"
+                    ],
+                    "from": "\u3130",
+                    "to": "\u318F",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Jamo Extended-A"
+                    ],
+                    "from": "\uA960",
+                    "to": "\uA97F",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Jamo Extended-B"
+                    ],
+                    "from": "\uD7B0",
+                    "to": "\uD7FF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Syllables"
+                    ],
+                    "from": "\uAC00",
+                    "to": "\uD7AF",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "CJK Compatibility Ideographs"
+                    ],
+                    "from": "\uF900",
+                    "to": "\uFAFF",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Halfwidth and Fullwidth Forms"
+                    ],
+                    "from": "\uFF01",
+                    "to": "\uFF5E",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "CJK Unified Ideographs Extension B",
+                        "CJK Unified Ideographs Extension C",
+                        "CJK Unified Ideographs Extension D",
+                        "CJK Unified Ideographs Extension E",
+                        "CJK Unified Ideographs Extension F",
+                        "CJK Unified Ideographs Extension I",
+                        "CJK Compatibility Ideographs Supplement",
+                        "CJK Unified Ideographs Extension G",
+                        "CJK Unified Ideographs Extension H",
+                        "CJK Unified Ideographs Extension J"
+                    ],
+                    "from": "\uD840\uDC00",
+                    "to": "\uD88D\uDC7F",
+                    "left": 0,
+                    "right": 15
+                }
+            ]
+        }
+    ]
+}
